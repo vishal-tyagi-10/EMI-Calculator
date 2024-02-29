@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestCases.TC_003_EMICalculatorValidation">
+        <methods>
+          <include name="setup"/>
+          <include name="EMICalculatorTextValidating"/>
+          <include name="tearDown"/>
+          <include name="EMICalculatorTextBoxValidating"/>
+          <include name="LoanCalculatorClick"/>
+          <include name="EMICalculatorSliderValidating"/>
+          <include name="YearToMonthCalculation"/>
+          <include name="Menu"/>
+        </methods>
+      </class> <!-- TestCases.TC_003_EMICalculatorValidation -->
+      <class name="TestCases.TC_001_CarLoan">
+        <methods>
+          <include name="output"/>
+          <include name="setup"/>
+          <include name="Interest"/>
+          <include name="Months_details"/>
+          <include name="tearDown"/>
+          <include name="Car_Loan"/>
+          <include name="Principal"/>
+          <include name="Loan_Tenure"/>
+        </methods>
+      </class> <!-- TestCases.TC_001_CarLoan -->
+      <class name="TestCases.TC_005_LoanTenureCalculatorUIVAlidation">
+        <methods>
+          <include name="Loan_Tenure_Calculator_Click"/>
+          <include name="setup"/>
+          <include name="Loan_Tenure_Calculator_Slider_Validation"/>
+          <include name="tearDown"/>
+          <include name="Loan_Tenure_Calculator_TextValidation"/>
+          <include name="LoanCalculatorClick"/>
+          <include name="Menu"/>
+          <include name="Loan_Tenure_Calculator_TextBox_Validation"/>
+        </methods>
+      </class> <!-- TestCases.TC_005_LoanTenureCalculatorUIVAlidation -->
+      <class name="TestCases.TC_002_Homeloan">
+        <methods>
+          <include name="Home_Loan_Value"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="Writing_Excel"/>
+          <include name="Menu"/>
+          <include name="Year_Wise_Print"/>
+          <include name="Home_Loan"/>
+        </methods>
+      </class> <!-- TestCases.TC_002_Homeloan -->
+      <class name="TestCases.TC_004_LoanAmountUIValidation">
+        <methods>
+          <include name="LoanCalculatorClick"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="LoanAmountCalculatorTextValidating"/>
+          <include name="LoanAmountCalculatorSliderValidating"/>
+          <include name="Loan_Amount_Calculator_Click"/>
+          <include name="LoanAmountCalculatorTextBoxValidating"/>
+          <include name="LoanamountYearToMonth"/>
+          <include name="Menu"/>
+        </methods>
+      </class> <!-- TestCases.TC_004_LoanAmountUIValidation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

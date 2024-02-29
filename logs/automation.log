@@ -1,0 +1,13 @@
+18:03:37.311 [main] INFO  BaseClass.Driver - ---------- Click on the Calculators Present in menu ----------
+18:03:38.050 [main] INFO  BaseClass.Driver - ---------- Click on the Loan Calculator Present in menu ----------
+18:03:39.530 [main] INFO  BaseClass.Driver - ---------- Click on the Loan Amount Calculator ----------
+18:03:40.741 [main] INFO  BaseClass.Driver - ********** Validating Loan Amount Calculator Text **********
+18:03:41.379 [main] INFO  BaseClass.Driver - ********** Validating Loan Amount Calculator Text Box **********
+18:03:41.844 [main] INFO  BaseClass.Driver - ********** Validating Loan Amount Calculator Year To Month Conversion **********
+18:03:42.292 [main] INFO  BaseClass.Driver - ********** Validating Loan Amount Calculator Slider **********
+18:03:59.924 [main] INFO  BaseClass.Driver - ---------- Click on the Calculators Present in menu ----------
+18:04:00.561 [main] INFO  BaseClass.Driver - ---------- Click on the Loan Calculator Present in menu ----------
+18:04:01.946 [main] INFO  BaseClass.Driver - ---------- Click on the Loan Tenure Calculator ----------
+18:04:03.390 [main] INFO  BaseClass.Driver - ********** Validating Loan Tenure Calculator Text **********
+18:04:04.062 [main] INFO  BaseClass.Driver - ********** Validating Loan Tenure Calculator Text Box  **********
+18:04:04.510 [main] INFO  BaseClass.Driver - ********** Validating Loan Tenure Calculator Slider **********

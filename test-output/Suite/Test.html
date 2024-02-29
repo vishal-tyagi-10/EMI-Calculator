@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 28 17:03:38 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>122 seconds (122000 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.TC_004_LoanAmountUIValidation.LoanCalculatorClick()'><b>LoanCalculatorClick</b><br>Test class: TestCases.TC_004_LoanAmountUIValidation</td>
+<td></td>
+<td>2</td>
+<td>TestCases.TC_004_LoanAmountUIValidation@75d3a5e0</td></tr>
+<tr>
+<td title='TestCases.TC_001_CarLoan.Car_Loan()'><b>Car_Loan</b><br>Test class: TestCases.TC_001_CarLoan</td>
+<td></td>
+<td>1</td>
+<td>TestCases.TC_001_CarLoan@3e8c3cb</td></tr>
+<tr>
+<td title='TestCases.TC_005_LoanTenureCalculatorUIVAlidation.Loan_Tenure_Calculator_Click()'><b>Loan_Tenure_Calculator_Click</b><br>Test class: TestCases.TC_005_LoanTenureCalculatorUIVAlidation</td>
+<td></td>
+<td>2</td>
+<td>TestCases.TC_005_LoanTenureCalculatorUIVAlidation@74d1dc36</td></tr>
+<tr>
+<td title='TestCases.TC_002_Homeloan.Home_Loan_Value()'><b>Home_Loan_Value</b><br>Test class: TestCases.TC_002_Homeloan</td>
+<td></td>
+<td>7</td>
+<td>TestCases.TC_002_Homeloan@58cbafc2</td></tr>
+<tr>
+<td title='TestCases.TC_003_EMICalculatorValidation.LoanCalculatorClick()'><b>LoanCalculatorClick</b><br>Test class: TestCases.TC_003_EMICalculatorValidation</td>
+<td></td>
+<td>3</td>
+<td>TestCases.TC_003_EMICalculatorValidation@2034b64c</td></tr>
+<tr>
+<td title='TestCases.TC_004_LoanAmountUIValidation.LoanamountYearToMonth()'><b>LoanamountYearToMonth</b><br>Test class: TestCases.TC_004_LoanAmountUIValidation</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_004_LoanAmountUIValidation@75d3a5e0</td></tr>
+<tr>
+<td title='TestCases.TC_004_LoanAmountUIValidation.LoanAmountCalculatorTextValidating()'><b>LoanAmountCalculatorTextValidating</b><br>Test class: TestCases.TC_004_LoanAmountUIValidation</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_004_LoanAmountUIValidation@75d3a5e0</td></tr>
+<tr>
+<td title='TestCases.TC_003_EMICalculatorValidation.YearToMonthCalculation()'><b>YearToMonthCalculation</b><br>Test class: TestCases.TC_003_EMICalculatorValidation</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_003_EMICalculatorValidation@2034b64c</td></tr>
+<tr>
+<td title='TestCases.TC_003_EMICalculatorValidation.Menu()'><b>Menu</b><br>Test class: TestCases.TC_003_EMICalculatorValidation</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_003_EMICalculatorValidation@2034b64c</td></tr>
+<tr>
+<td title='TestCases.TC_003_EMICalculatorValidation.EMICalculatorTextBoxValidating()'><b>EMICalculatorTextBoxValidating</b><br>Test class: TestCases.TC_003_EMICalculatorValidation</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_003_EMICalculatorValidation@2034b64c</td></tr>
+<tr>
+<td title='TestCases.TC_002_Homeloan.Home_Loan()'><b>Home_Loan</b><br>Test class: TestCases.TC_002_Homeloan</td>
+<td></td>
+<td>1</td>
+<td>TestCases.TC_002_Homeloan@58cbafc2</td></tr>
+<tr>
+<td title='TestCases.TC_001_CarLoan.Interest()'><b>Interest</b><br>Test class: TestCases.TC_001_CarLoan</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_001_CarLoan@3e8c3cb</td></tr>
+<tr>
+<td title='TestCases.TC_002_Homeloan.Writing_Excel()'><b>Writing_Excel</b><br>Test class: TestCases.TC_002_Homeloan</td>
+<td></td>
+<td>12</td>
+<td>TestCases.TC_002_Homeloan@58cbafc2</td></tr>
+<tr>
+<td title='TestCases.TC_004_LoanAmountUIValidation.LoanAmountCalculatorTextBoxValidating()'><b>LoanAmountCalculatorTextBoxValidating</b><br>Test class: TestCases.TC_004_LoanAmountUIValidation</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_004_LoanAmountUIValidation@75d3a5e0</td></tr>
+<tr>
+<td title='TestCases.TC_004_LoanAmountUIValidation.Menu()'><b>Menu</b><br>Test class: TestCases.TC_004_LoanAmountUIValidation</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_004_LoanAmountUIValidation@75d3a5e0</td></tr>
+<tr>
+<td title='TestCases.TC_001_CarLoan.Months_details()'><b>Months_details</b><br>Test class: TestCases.TC_001_CarLoan</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_001_CarLoan@3e8c3cb</td></tr>
+<tr>
+<td title='TestCases.TC_005_LoanTenureCalculatorUIVAlidation.Loan_Tenure_Calculator_TextValidation()'><b>Loan_Tenure_Calculator_TextValidation</b><br>Test class: TestCases.TC_005_LoanTenureCalculatorUIVAlidation</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_005_LoanTenureCalculatorUIVAlidation@74d1dc36</td></tr>
+<tr>
+<td title='TestCases.TC_005_LoanTenureCalculatorUIVAlidation.Loan_Tenure_Calculator_TextBox_Validation()'><b>Loan_Tenure_Calculator_TextBox_Validation</b><br>Test class: TestCases.TC_005_LoanTenureCalculatorUIVAlidation</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_005_LoanTenureCalculatorUIVAlidation@74d1dc36</td></tr>
+<tr>
+<td title='TestCases.TC_005_LoanTenureCalculatorUIVAlidation.Menu()'><b>Menu</b><br>Test class: TestCases.TC_005_LoanTenureCalculatorUIVAlidation</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_005_LoanTenureCalculatorUIVAlidation@74d1dc36</td></tr>
+<tr>
+<td title='TestCases.TC_005_LoanTenureCalculatorUIVAlidation.LoanCalculatorClick()'><b>LoanCalculatorClick</b><br>Test class: TestCases.TC_005_LoanTenureCalculatorUIVAlidation</td>
+<td></td>
+<td>1</td>
+<td>TestCases.TC_005_LoanTenureCalculatorUIVAlidation@74d1dc36</td></tr>
+<tr>
+<td title='TestCases.TC_001_CarLoan.output()'><b>output</b><br>Test class: TestCases.TC_001_CarLoan</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_001_CarLoan@3e8c3cb</td></tr>
+<tr>
+<td title='TestCases.TC_004_LoanAmountUIValidation.LoanAmountCalculatorSliderValidating()'><b>LoanAmountCalculatorSliderValidating</b><br>Test class: TestCases.TC_004_LoanAmountUIValidation</td>
+<td></td>
+<td>2</td>
+<td>TestCases.TC_004_LoanAmountUIValidation@75d3a5e0</td></tr>
+<tr>
+<td title='TestCases.TC_002_Homeloan.Menu()'><b>Menu</b><br>Test class: TestCases.TC_002_Homeloan</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_002_Homeloan@58cbafc2</td></tr>
+<tr>
+<td title='TestCases.TC_003_EMICalculatorValidation.EMICalculatorSliderValidating()'><b>EMICalculatorSliderValidating</b><br>Test class: TestCases.TC_003_EMICalculatorValidation</td>
+<td></td>
+<td>2</td>
+<td>TestCases.TC_003_EMICalculatorValidation@2034b64c</td></tr>
+<tr>
+<td title='TestCases.TC_005_LoanTenureCalculatorUIVAlidation.Loan_Tenure_Calculator_Slider_Validation()'><b>Loan_Tenure_Calculator_Slider_Validation</b><br>Test class: TestCases.TC_005_LoanTenureCalculatorUIVAlidation</td>
+<td></td>
+<td>2</td>
+<td>TestCases.TC_005_LoanTenureCalculatorUIVAlidation@74d1dc36</td></tr>
+<tr>
+<td title='TestCases.TC_001_CarLoan.Loan_Tenure()'><b>Loan_Tenure</b><br>Test class: TestCases.TC_001_CarLoan</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_001_CarLoan@3e8c3cb</td></tr>
+<tr>
+<td title='TestCases.TC_002_Homeloan.Year_Wise_Print()'><b>Year_Wise_Print</b><br>Test class: TestCases.TC_002_Homeloan</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_002_Homeloan@58cbafc2</td></tr>
+<tr>
+<td title='TestCases.TC_004_LoanAmountUIValidation.Loan_Amount_Calculator_Click()'><b>Loan_Amount_Calculator_Click</b><br>Test class: TestCases.TC_004_LoanAmountUIValidation</td>
+<td></td>
+<td>1</td>
+<td>TestCases.TC_004_LoanAmountUIValidation@75d3a5e0</td></tr>
+<tr>
+<td title='TestCases.TC_001_CarLoan.Principal()'><b>Principal</b><br>Test class: TestCases.TC_001_CarLoan</td>
+<td></td>
+<td>2</td>
+<td>TestCases.TC_001_CarLoan@3e8c3cb</td></tr>
+<tr>
+<td title='TestCases.TC_003_EMICalculatorValidation.EMICalculatorTextValidating()'><b>EMICalculatorTextValidating</b><br>Test class: TestCases.TC_003_EMICalculatorValidation</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TC_003_EMICalculatorValidation@2034b64c</td></tr>
+</table><p>
+</body>
+</html>

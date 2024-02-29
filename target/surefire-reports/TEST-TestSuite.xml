@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="128.133" tests="30" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\2303764\eclipse-workspace\EMI_Calculator\target\test-classes;C:\Users\2303764\eclipse-workspace\EMI_Calculator\target\classes;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\2303764\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\2303764\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2303764\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2303764\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2303764\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\2303764\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\2303764\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\2303764\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\2303764\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;C:\Users\2303764\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2303764\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2303764\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2303764\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2303764\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2303764\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\2303764\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\2303764\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\2303764\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\2303764\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2303764\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\2303764\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\2303764\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\2303764\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\2303764\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\2303764\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\2303764\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2303764\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2303764\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2303764\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2303764\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2303764\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2303764\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2303764\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\2303764\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\2303764\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\2303764\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2303764\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\2303764\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\2303764\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\2303764\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2303764\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2303764\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2303764\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2303764\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\2303764\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\2303764\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\2303764\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2303764\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2303764\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2303764\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2303764\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2303764\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2303764\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\2303764\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\2303764\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\2303764\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\2303764\AppData\Local\Temp\1\surefire10457311237909362505\surefirebooter-20240228180200804_3.jar C:\Users\2303764\AppData\Local\Temp\1\surefire10457311237909362505 2024-02-28T18-02-00_324-jvmRun1 surefire-20240228180200804_1tmp surefire_0-20240228180200804_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\2303764\eclipse-workspace\EMI_Calculator\target\test-classes;C:\Users\2303764\eclipse-workspace\EMI_Calculator\target\classes;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\2303764\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\2303764\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2303764\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2303764\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2303764\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\2303764\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\2303764\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\2303764\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\2303764\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\2303764\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\2303764\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;C:\Users\2303764\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2303764\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2303764\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2303764\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2303764\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2303764\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\2303764\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\2303764\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\2303764\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\2303764\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2303764\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\2303764\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\2303764\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\2303764\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\2303764\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\2303764\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\2303764\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2303764\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2303764\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2303764\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2303764\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2303764\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2303764\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2303764\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\2303764\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\2303764\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\2303764\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2303764\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\2303764\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2303764\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\2303764\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\2303764\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\2303764\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2303764\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2303764\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2303764\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2303764\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\2303764\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\2303764\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\2303764\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2303764\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2303764\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2303764\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2303764\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2303764\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2303764\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\2303764\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\2303764\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\2303764\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\2303764\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\2303764"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\2303764\eclipse-workspace\EMI_Calculator"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\2303764\AppData\Local\Temp\1\surefire10457311237909362505\surefirebooter-20240228180200804_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS"/>
+    <property name="user.name" value="2303764"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu17.32+13-CA"/>
+    <property name="localRepository" value="C:\Users\2303764\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\2303764\AppData\Local\Temp\1\"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="user.dir" value="C:\Users\2303764\eclipse-workspace\EMI_Calculator"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Zulu\zulu-17\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\apache-maven-3.9.6\bin;C:\Users\2303764\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="17.0.2+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Car_Loan" classname="TestCases.TC_001_CarLoan" time="1.868">
+    <system-out><![CDATA[18:02:20.124 [main] INFO  BaseClass.Driver - ---------- Click on the Car Loan ----------
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="Principal" classname="TestCases.TC_001_CarLoan" time="2.151">
+    <system-out><![CDATA[18:02:20.812 [main] INFO  BaseClass.Driver - ---------- Click on the Principal TextBox and fill amount ----------
+]]></system-out>
+  </testcase>
+  <testcase name="Interest" classname="TestCases.TC_001_CarLoan" time="0.892">
+    <system-out><![CDATA[18:02:22.971 [main] INFO  BaseClass.Driver - ---------- Click on Interest TextBox and fill Interest Rate ----------
+]]></system-out>
+  </testcase>
+  <testcase name="Loan_Tenure" classname="TestCases.TC_001_CarLoan" time="0.792">
+    <system-out><![CDATA[18:02:23.865 [main] INFO  BaseClass.Driver - ---------- Click on Tenure TextBox and Fill Year ----------
+]]></system-out>
+  </testcase>
+  <testcase name="Months_details" classname="TestCases.TC_001_CarLoan" time="0.49">
+    <system-out><![CDATA[18:02:24.659 [main] INFO  BaseClass.Driver - ---------- Fetching  Principal amount and Interest ----------
+]]></system-out>
+  </testcase>
+  <testcase name="output" classname="TestCases.TC_001_CarLoan" time="0.411">
+    <system-out><![CDATA[18:02:25.151 [main] INFO  BaseClass.Driver - ---------- Printing Principal amount and Interest in console ----------
+Principal Amount : ₹ 1,19,650
+Interest Amount : ₹ 11,875
+]]></system-out>
+  </testcase>
+  <testcase name="Menu" classname="TestCases.TC_002_Homeloan" time="0.638">
+    <system-out><![CDATA[18:02:40.558 [main] INFO  BaseClass.Driver - ---------- Click on the Calculator present in Menu ----------
+]]></system-out>
+  </testcase>
+  <testcase name="Home_Loan" classname="TestCases.TC_002_Homeloan" time="1.534">
+    <system-out><![CDATA[18:02:41.197 [main] INFO  BaseClass.Driver - ---------- Click on the Home Loan Present in Menu ----------
+
+2 Test Scenario
+
+]]></system-out>
+  </testcase>
+  <testcase name="Home_Loan_Value" classname="TestCases.TC_002_Homeloan" time="7.539">
+    <system-out><![CDATA[18:02:42.733 [main] INFO  BaseClass.Driver - ---------- Enter Details in home Loan ----------
+]]></system-out>
+  </testcase>
+  <testcase name="Year_Wise_Print" classname="TestCases.TC_002_Homeloan" time="1.246">
+    <system-out><![CDATA[18:02:50.274 [main] INFO  BaseClass.Driver - ---------- Printing Year Wise Table in console ----------
+2024 ₹ 1,38,369 ₹ 4,52,664 ₹ 44,000 ₹ 6,35,033 ₹ 48,61,631 2.77%
+2025 ₹ 1,66,075 ₹ 4,78,688 ₹ 48,000 ₹ 6,92,763 ₹ 46,95,556 6.09%
+2026 ₹ 1,83,465 ₹ 4,61,298 ₹ 48,000 ₹ 6,92,763 ₹ 45,12,091 9.76%
+2027 ₹ 2,02,676 ₹ 4,42,087 ₹ 48,000 ₹ 6,92,763 ₹ 43,09,414 13.81%
+2028 ₹ 2,23,899 ₹ 4,20,864 ₹ 48,000 ₹ 6,92,763 ₹ 40,85,515 18.29%
+2029 ₹ 2,47,344 ₹ 3,97,419 ₹ 48,000 ₹ 6,92,763 ₹ 38,38,171 23.24%
+2030 ₹ 2,73,245 ₹ 3,71,519 ₹ 48,000 ₹ 6,92,763 ₹ 35,64,926 28.7%
+2031 ₹ 3,01,857 ₹ 3,42,906 ₹ 48,000 ₹ 6,92,763 ₹ 32,63,070 34.74%
+2032 ₹ 3,33,465 ₹ 3,11,298 ₹ 48,000 ₹ 6,92,763 ₹ 29,29,604 41.41%
+2033 ₹ 3,68,383 ₹ 2,76,380 ₹ 48,000 ₹ 6,92,763 ₹ 25,61,221 48.78%
+2034 ₹ 4,06,958 ₹ 2,37,805 ₹ 48,000 ₹ 6,92,763 ₹ 21,54,263 56.91%
+2035 ₹ 4,49,572 ₹ 1,95,191 ₹ 48,000 ₹ 6,92,763 ₹ 17,04,692 65.91%
+2036 ₹ 4,96,648 ₹ 1,48,115 ₹ 48,000 ₹ 6,92,763 ₹ 12,08,044 75.84%
+2037 ₹ 5,48,653 ₹ 96,110 ₹ 48,000 ₹ 6,92,763 ₹ 6,59,391 86.81%
+2038 ₹ 6,06,104 ₹ 38,659 ₹ 48,000 ₹ 6,92,763 ₹ 53,286 98.93%
+2039 ₹ 53,286 ₹ 444 ₹ 4,000 ₹ 57,730 ₹ 0 100%
+
+]]></system-out>
+  </testcase>
+  <testcase name="Writing_Excel" classname="TestCases.TC_002_Homeloan" time="10.999">
+    <system-out><![CDATA[18:02:51.519 [main] INFO  BaseClass.Driver - ---------- Writing Year Wise Table in Excel ----------
+Writing of data from  year on year table in Excel Done
+2 Test Scenario Completed
+
+]]></system-out>
+  </testcase>
+  <testcase name="Menu" classname="TestCases.TC_003_EMICalculatorValidation" time="0.55">
+    <system-out><![CDATA[18:03:16.773 [main] INFO  BaseClass.Driver - ---------- Click on the Calculator Present in menu ----------
+]]></system-out>
+  </testcase>
+  <testcase name="LoanCalculatorClick" classname="TestCases.TC_003_EMICalculatorValidation" time="1.274">
+    <system-out><![CDATA[18:03:17.322 [main] INFO  BaseClass.Driver - ---------- Click on the Loan Calculator Present in menu ----------
+]]></system-out>
+  </testcase>
+  <testcase name="EMICalculatorTextValidating" classname="TestCases.TC_003_EMICalculatorValidation" time="0.639">
+    <system-out><![CDATA[18:03:18.597 [main] INFO  BaseClass.Driver - ********** Validating EMI Calculator Text **********
+
+      Text that are Validating are present below     
+
+Loan Amount
+Interest Rate
+Loan Tenure
+Fees & Charges
+]]></system-out>
+  </testcase>
+  <testcase name="EMICalculatorTextBoxValidating" classname="TestCases.TC_003_EMICalculatorValidation" time="0.395">
+    <system-out><![CDATA[18:03:19.237 [main] INFO  BaseClass.Driver - ********** Validating EMI Calculator Text Box  **********
+]]></system-out>
+  </testcase>
+  <testcase name="YearToMonthCalculation" classname="TestCases.TC_003_EMICalculatorValidation" time="0.403">
+    <system-out><![CDATA[18:03:19.633 [main] INFO  BaseClass.Driver - ********** Validating EMI Calculator Year To month Conversion **********
+]]></system-out>
+  </testcase>
+  <testcase name="EMICalculatorSliderValidating" classname="TestCases.TC_003_EMICalculatorValidation" time="3.099">
+    <system-out><![CDATA[18:03:20.037 [main] INFO  BaseClass.Driver - ********** Validating EMI Calculator Slider **********
+]]></system-out>
+  </testcase>
+  <testcase name="Menu" classname="TestCases.TC_004_LoanAmountUIValidation" time="0.738">
+    <system-out><![CDATA[18:03:37.311 [main] INFO  BaseClass.Driver - ---------- Click on the Calculators Present in menu ----------
+]]></system-out>
+  </testcase>
+  <testcase name="LoanCalculatorClick" classname="TestCases.TC_004_LoanAmountUIValidation" time="1.478">
+    <system-out><![CDATA[18:03:38.050 [main] INFO  BaseClass.Driver - ---------- Click on the Loan Calculator Present in menu ----------
+]]></system-out>
+  </testcase>
+  <testcase name="Loan_Amount_Calculator_Click" classname="TestCases.TC_004_LoanAmountUIValidation" time="1.21">
+    <system-out><![CDATA[18:03:39.530 [main] INFO  BaseClass.Driver - ---------- Click on the Loan Amount Calculator ----------
+]]></system-out>
+  </testcase>
+  <testcase name="LoanAmountCalculatorTextValidating" classname="TestCases.TC_004_LoanAmountUIValidation" time="0.636">
+    <system-out><![CDATA[18:03:40.741 [main] INFO  BaseClass.Driver - ********** Validating Loan Amount Calculator Text **********
+
+      Text that are Validating are present below     
+
+EMI
+Interest Rate
+Loan Tenure
+Fees & Charges
+]]></system-out>
+  </testcase>
+  <testcase name="LoanAmountCalculatorTextBoxValidating" classname="TestCases.TC_004_LoanAmountUIValidation" time="0.464">
+    <system-out><![CDATA[18:03:41.379 [main] INFO  BaseClass.Driver - ********** Validating Loan Amount Calculator Text Box **********
+]]></system-out>
+  </testcase>
+  <testcase name="LoanamountYearToMonth" classname="TestCases.TC_004_LoanAmountUIValidation" time="0.447">
+    <system-out><![CDATA[18:03:41.844 [main] INFO  BaseClass.Driver - ********** Validating Loan Amount Calculator Year To Month Conversion **********
+]]></system-out>
+  </testcase>
+  <testcase name="LoanAmountCalculatorSliderValidating" classname="TestCases.TC_004_LoanAmountUIValidation" time="2.964">
+    <system-out><![CDATA[18:03:42.292 [main] INFO  BaseClass.Driver - ********** Validating Loan Amount Calculator Slider **********
+]]></system-out>
+  </testcase>
+  <testcase name="Menu" classname="TestCases.TC_005_LoanTenureCalculatorUIVAlidation" time="0.636">
+    <system-out><![CDATA[18:03:59.924 [main] INFO  BaseClass.Driver - ---------- Click on the Calculators Present in menu ----------
+]]></system-out>
+  </testcase>
+  <testcase name="LoanCalculatorClick" classname="TestCases.TC_005_LoanTenureCalculatorUIVAlidation" time="1.383">
+    <system-out><![CDATA[18:04:00.561 [main] INFO  BaseClass.Driver - ---------- Click on the Loan Calculator Present in menu ----------
+]]></system-out>
+  </testcase>
+  <testcase name="Loan_Tenure_Calculator_Click" classname="TestCases.TC_005_LoanTenureCalculatorUIVAlidation" time="1.442">
+    <system-out><![CDATA[18:04:01.946 [main] INFO  BaseClass.Driver - ---------- Click on the Loan Tenure Calculator ----------
+]]></system-out>
+  </testcase>
+  <testcase name="Loan_Tenure_Calculator_TextValidation" classname="TestCases.TC_005_LoanTenureCalculatorUIVAlidation" time="0.671">
+    <system-out><![CDATA[18:04:03.390 [main] INFO  BaseClass.Driver - ********** Validating Loan Tenure Calculator Text **********
+
+      Text that are Validating are present below     
+
+Loan Amount
+EMI
+Interest Rate
+Fees & Charges
+]]></system-out>
+  </testcase>
+  <testcase name="Loan_Tenure_Calculator_TextBox_Validation" classname="TestCases.TC_005_LoanTenureCalculatorUIVAlidation" time="0.447">
+    <system-out><![CDATA[18:04:04.062 [main] INFO  BaseClass.Driver - ********** Validating Loan Tenure Calculator Text Box  **********
+]]></system-out>
+  </testcase>
+  <testcase name="Loan_Tenure_Calculator_Slider_Validation" classname="TestCases.TC_005_LoanTenureCalculatorUIVAlidation" time="2.937">
+    <system-out><![CDATA[18:04:04.510 [main] INFO  BaseClass.Driver - ********** Validating Loan Tenure Calculator Slider **********
+]]></system-out>
+  </testcase>
+</testsuite>

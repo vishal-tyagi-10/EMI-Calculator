@@ -1,0 +1,1 @@
+Actually i have to upload my project with in 10Mb only so to reduce size of project i have created the Cucumber report without the screenshots. If user want to create report with screenshot just run the code again you will get report with attached screenshot as i've implemented it fully.
